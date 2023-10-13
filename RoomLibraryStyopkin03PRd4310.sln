@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoomLibraryStyopkin03PRd4310", "RoomLibraryStyopkin03PRd4310.csproj", "{F5982AAF-6A3A-4181-9647-AFB89395EACE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F5982AAF-6A3A-4181-9647-AFB89395EACE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5982AAF-6A3A-4181-9647-AFB89395EACE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5982AAF-6A3A-4181-9647-AFB89395EACE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5982AAF-6A3A-4181-9647-AFB89395EACE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3ECF72AE-EF2D-496F-9F50-C86981C21DFD}
+	EndGlobalSection
+EndGlobal
