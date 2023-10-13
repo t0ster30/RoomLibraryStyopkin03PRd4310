@@ -14,13 +14,13 @@ namespace RoomLibraryStyopkin03PRd4310
         public double RoomLength
         {
             get { return roomLength; }
-            get { roomLength = value; }
+            set { roomLength = value; }
         }
 
         public double RoomWidth
         {
             get { return roomWidth; }
-            get { roomWidth = value; }
+            set { roomWidth = value; }
         }
 
         /// <summary>
@@ -39,6 +39,11 @@ namespace RoomLibraryStyopkin03PRd4310
         {
             return roomLength * roomWidth;
         }
+        /// <summary>
+        /// метод вычисляет число людей на квадратный метр площади
+        /// </summary>
+        /// <param name="np">число человек</param>
+        /// <returns>число квадратных метров на человека</returns>
         public double PersonArea(int np)
         {
             return RoomArea() / np;
