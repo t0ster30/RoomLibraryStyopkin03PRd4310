@@ -39,6 +39,10 @@ namespace RoomLibraryStyopkin03PRd4310
         {
             return roomLength * roomWidth;
         }
+        public double PersonArea(int np)
+        {
+            return RoomArea() / np;
+        }
     }
 
 }
