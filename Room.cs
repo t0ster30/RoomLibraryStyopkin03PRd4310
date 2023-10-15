@@ -48,7 +48,7 @@ namespace RoomLibraryStyopkin03PRd4310
         {
             return RoomArea() / np;
         }
-        public string Info()
+        public virtual string Info()
         {
             return "Комната площадью " + RoomArea() + "кв.м";
         }
@@ -66,7 +66,7 @@ namespace RoomLibraryStyopkin03PRd4310
         /// метод возвращает информацию о комнате
         /// </summary>
         /// <returns>строка с информацией о комнате</returns>
-        public string Info()
+        public override string Info()
         {
             return "Жилая комната площадью " + RoomArea() + " кв.м, с " + numWin + " окнами";
         }
@@ -92,7 +92,7 @@ namespace RoomLibraryStyopkin03PRd4310
         /// метод возвращает информацию об офисе
         /// </summary>
         /// <returns>строка с информацией</returns>
-        public string Info()
+        public override string Info()
         {
             return "Офис на " + NumWorkplaces() + " рабочих мест";
         }
