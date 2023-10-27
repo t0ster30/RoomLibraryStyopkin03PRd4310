@@ -31,6 +31,7 @@ namespace RoomLibraryStyopkin03PRd4310
         {
             return 2 * (roomLength + roomWidth);
         }
+
         /// <summary>
         /// метод вычисляет площадь комнаты
         /// </summary>
@@ -54,6 +55,9 @@ namespace RoomLibraryStyopkin03PRd4310
         }
     }
 
+    /// <summary>
+    /// класс -- жилая комната
+    /// </summary>
     public class LivingRoom : Room
     {
         int numWin;
@@ -71,6 +75,10 @@ namespace RoomLibraryStyopkin03PRd4310
             return "Жилая комната площадью " + RoomArea() + " кв.м, с " + numWin + " окнами";
         }
     }
+
+    /// <summary>
+    /// класс -- офис
+    /// </summary>
     public class Office : Room
     {
         int numSockets;
